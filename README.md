@@ -61,7 +61,7 @@ Patch it around
   - "99 little bugs in the code"
   - a link that says "pull one down, patch it around"
   - this should link to `/bugs/101`, where the number represents the number of bugs remaining to fix
-- When a number is given in the url (`get "/bugs/:number_of_bugs"`), users should see:
+- When a number is given in the url (`get "/bugs/:numberOfBugs"`), users should see:
   - The number of bugs left in the code (i.e. `101 little bugs in the code`)
   - a link to "pull one down, patch it around", where the href is number of bottles in the parameter plus 2
 - If there over 200 bugs left, do not show a link to "pull one down", rather, add a link to start over, which directs the user back to the home page
